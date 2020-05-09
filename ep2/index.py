@@ -216,11 +216,14 @@ import re
 # print(lenMots("azerty azrezt azdiopvd azopijckqsop cdsvpokvdpsok"))
 
 # ex 24
-# import sys
-# r = int(sys.argv[1])
-# pi = 3.1415926535897931
-# V= 4.0/3.0*pi* r**3
-# print('The volume of the sphere is: ',V," pour un ranyon de ",r)
+import sys
+try:
+  r = int(sys.argv[1])
+  pi = 3.1415926535897931
+  V= 4.0/3.0*pi* r**3
+  print('The volume of the sphere is: ',V," pour un ranyon de ",r)
+except ValueError:
+    print("error lol")
 
 # ex 25
 # def somme(a, b, c) :
