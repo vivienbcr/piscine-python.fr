@@ -43,7 +43,6 @@ import re
 #     print('tout va bien ')
 
 # ex6
-# import re
 
 # mail = str(input("votre mail : "))
 # if(re.search(r"\b@\b.*\b.com\b", mail)):
@@ -69,11 +68,47 @@ import re
 #   a += 1
 
 # ex 10
-b = 10
 
-while b > 0:
-    if b%2 != 0:
-        print("impaire")
-    else:
-        print("pair")
-    b = b-1
+# b = 10
+
+# while b > 0:
+#     if b%2 != 0:
+#         print("impaire")
+#     else:
+#         print("pair")
+#     b = b-1
+
+# ex 11
+
+# u=True
+# while u:
+#     n = int(input("Entrez un nombre:"))
+#     if 1 <= n <= 10:
+#         print(n)
+#         u = False
+
+# ex 12
+# my_list = ["azerty","azeqsdqs", "zeaesq"]
+# for i in my_list:
+#     print(i)
+
+# ex 13
+
+# for i in range(1,15):
+#     if i%3==0:
+#         print(i)
+
+#ex 14
+
+# n = int(input("n : "))
+# i = 0
+# while i < n:
+#     i+=1
+#     if i%2==0:
+#       print(i)
+
+# for r in range(1,n+1):
+#     if r%2==0:
+#         print(r)
+
+#ex 15
